@@ -10,9 +10,11 @@
 }
 
 .masthead {
-    background-image: url('imgs/cutting_wood.avif');
+    background-image: url('../imgs/bass/masthead.avif');
     background-size: cover;
+    object-position: bottom center;
     height: 70vh;
+    opacity: 0.95;
 }
 
 .nav-link {
@@ -41,36 +43,14 @@
     font-size: 1.15rem;
 }
 
-.bass {
-    object-fit: cover;
+.card-img-top {
+    height: 95%;
 }
 
-
-#instruments {
-    background-color: #f8f9fa;
-
-}
-
-#benefits {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f8f9fa;
-}
-
-#subscribe {
-    background-color: #F4F4F4;
-    font-family: 'Poppins', sans-serif;
-}
-
-#instruments img {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 8px;
-}
 
 footer {
     background-color: #2f221e;
-    color: #f8f9fa;
+    color: white;
     transition: color 0.3s;
 }
 
@@ -86,6 +66,16 @@ a {
 
 .disclaimer {
     color: #9c9999;
+}
+
+#subscribe {
+    background-color: #F4F4F4;
+    font-family: 'Poppins', sans-serif;
+}
+
+#benefits {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
 }
 
 @media (max-width: 768px) {
