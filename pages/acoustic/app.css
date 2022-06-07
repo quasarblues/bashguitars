@@ -44,7 +44,12 @@
 }
 
 .card-img-top {
-    height: 80%;
+    height: 75%;
+}
+
+.card {
+    width: 21rem;
+    height: 44rem;
 }
 
 
@@ -58,6 +63,7 @@ footer a:hover {
     color: white;
 }
 
+footer li,
 a {
     text-decoration: none;
     list-style: none;
