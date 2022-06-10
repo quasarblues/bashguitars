@@ -1,12 +1,16 @@
 .navbar-brand {
-    font-size: 2.5rem;
+    font-size: 2.55rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
 .nav-item {
-    font-size: 1.5rem;
-    color: #e3dcdc;
+    font-size: 1.6rem;
+    color: #f3eded;
+}
+
+#mainNavbar {
+    width: 100%;
 }
 
 .masthead {
@@ -21,9 +25,8 @@
 }
 
 .mast-subheading {
-    color: #e3dcdc;
+    color: #e9e6e6;
     font-size: 5rem;
-    margin-top: 10rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-style: italic;
@@ -93,8 +96,10 @@ a {
     .masthead {
         height: 50vh;
     }
+}
 
-    .mast-subheading {
-        margin-top: 2rem;
+@media (max-width: 768px) {
+    #mainNavbar {
+        background-color: #212529;
     }
 }
