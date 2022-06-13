@@ -1,16 +1,23 @@
 .navbar-brand {
-    font-size: 2.1rem;
+    font-size: 2.8rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    padding-left: 12rem;
 }
 
 .nav-item {
-    font-size: 1.4rem;
-    color: #f3eded;
+    font-size: 1.6rem;
+    color: #f5f0f0;
+
+}
+
+.navbar-nav {
+    padding-right: 12rem;
 }
 
 #mainNavbar {
     width: 100%;
+
 }
 
 .masthead {
@@ -91,6 +98,11 @@ a {
     color: #9c9999;
 }
 
+section {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
 @media (max-width: 768px) {
     .masthead {
         height: 50vh;
@@ -100,5 +112,14 @@ a {
 @media (max-width: 768px) {
     #mainNavbar {
         background-color: #212529;
+    }
+
+    .navbar-brand {
+        padding-left: 0.5rem;
+        font-size: 2.1rem;
+    }
+
+    .nav-item {
+        font-size: 1.3rem;
     }
 }
